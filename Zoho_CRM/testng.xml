@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="demo.ReadDataFromJsonFile"/>
+      <class name="testScript.TC_5CreateContact"/>
+      <class name="testScript.TC_4CreateContact"/>
+      <class name="testScript.TC_2CreateContact"/>
+      <class name="testScript.TC_1CreateContact"/>
+      <class name="demo.ReadDataFromPropertyFile"/>
+      <class name="testScript.TC_3CreateContact"/>
+      <class name="com.crm.vtiger.genericUtils.FileUtility"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
