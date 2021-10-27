@@ -16,6 +16,7 @@ public class TC_1CreateContact {
 	@Test
 	/*
 	 * author @ sohan
+	 * hard coding
 	 */
 	/**
 	 * automate the vtiger application on creating organization and on creating new contact
